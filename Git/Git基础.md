@@ -273,6 +273,24 @@ git pull <远程仓库名> <远程分支名>:<本地分支名>#相同可省略
 
 * `-v` 查看远程仓库
 
+  ```bash
+  git remote -v  
+  ```
+
+* `rm` 删除远程仓库
+
+  ```bash
+   git remote rm origin
+  ```
+
+* `set-url` 重新设置远程厂库
+
+  ```bash
+  git remote set-url origin https://gitee.com/xx/xx.git (新地址)
+  ```
+
+  
+
 ### `git branch` 
 
 #### 用法
